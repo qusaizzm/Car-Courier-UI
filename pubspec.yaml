@@ -1,0 +1,45 @@
+name: ca
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  after_layout: ^1.0.7+2
+  clay_containers: ^0.2.2
+  font_awesome_flutter: ^8.8.1
+  carousel_slider: ^2.3.0
+  url_launcher: ^5.7.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  
+  uses-material-design: true
+  
+  assets:
+    - assets/img/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: fonts/Cairo-Regular.ttf
+        - asset: fonts/Cairo-Bold.ttf
+        - asset: fonts/Cairo-ExtraLight.ttf
+        - asset: fonts/Cairo-Light.ttf
+        - asset: fonts/Cairo-SemiBold.ttf
+          style: italic
